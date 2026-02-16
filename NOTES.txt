@@ -6,6 +6,7 @@
 4. Public instances = bastion hosts
 5. Private instances = code
 6. Uncomment modules one at a time, don't apply everything all at once.
+ECS - remote backend and state locking
 
 *NEXT STEPS*
 # public and private instances running
