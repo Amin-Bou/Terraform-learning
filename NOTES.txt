@@ -1,0 +1,14 @@
+*MAIN NOTES*
+
+1. Put modules in a modules folder
+2. Don't variablise everything.
+3. Add security.tf -> put all SGs there.
+4. Public instances = bastion hosts
+5. Private instances = code
+6. Uncomment modules one at a time, don't apply everything all at once.
+
+*NEXT STEPS*
+# public and private instances running
+# delete the public and use ALB
+# Use an alb to access private ec2 instance -> use acm (Add my personal domain and put in certificates)
+# run nginx on private ec2 instance -> use Hasti's code 
